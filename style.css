@@ -9,11 +9,34 @@
     --gap: 0.5rem;
     --radius: 5px;
   }
+  body {
+    background-image: url(https://scontent.ford4-1.fna.fbcdn.net/v/t1.6435-9/120420123_373186524086926_9216615960580522111_n.jpg?stp=dst-jpg_s720x720&_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=i1VDXqto1TgAX8qUMYP&_nc_ht=scontent.ford4-1.fna&oh=00_AfA8wycpvn2lmV5tUFVT0xcHJ2ddRkIzEzxJKSsmUb-U5w&oe=654272F7);
+    background-size: 100%;
+  }
+  main{
+    display: grid;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+  }
+
+    nav h1 {
+      margin-left: 60px;
+      margin-right: 10px ;
+    }
+
+  
   aside {
-    background-color: #b0d4d1;
+    background-color: #830000;
     font-size: 0.9rem;
     padding: 0.5rem;
   }
+
+  
+
 
   .btn {
     background-color: rgb(247, 247, 247);
