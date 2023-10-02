@@ -12,10 +12,11 @@
   aside {
     background-color: #b0d4d1;
     font-size: 0.9rem;
+    padding: 0.5rem;
   }
 
   .btn {
-    background-color: rgb(216, 168, 168);
+    background-color: rgb(247, 247, 247);
     display: flex;
     align-items: center;
     justify-content: flex-start;

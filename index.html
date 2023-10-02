@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    
     <title>Artist Feed</title>
 </head>
 <body>
@@ -14,6 +15,8 @@
         <h1>ABOUT</h1>
         <h1>CONTACT</h1>
     </nav>
+<!-- this is used to sort the content on the page. 
+    i havent set up the filter but the drop down menu for the filter is there-->
     <aside>
         <img class="portrait" src="" alt="">
         <p class="bio"></p>
@@ -35,16 +38,71 @@
                 <i class="bx bxs-paper-plane "></i>
             </a>
             </div>
+            <script type="text/javascript" src="index.js"></script>
     </aside>
+<!--the main is where the main content will be presented. currently i have the content divided into two columns
+    if i were more proficient i might have a better way of putting it together-->
     <main>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div id="main1">
+            <!--
+                the works presented are sourced from tumblr blogs. none of the work is my own. this is all for
+                learning purposes and is not meant to be taken too seriously. 
+            -->
+            <div class="painting">
+                <a href="https://www.instagram.com/p/CaOgKegvxzd/" title="witch of the woods by Murray Smoker">
+                    <img src="https://64.media.tumblr.com/56b5e97925c5efaa22ad1478cadd06e6/543bf9e5db4522c8-bc/s540x810/61b8d6e222fee77c1a8f95aa00861b0f5678786f.jpg"
+                     alt="girl & witch in the woods">
+                </a>
+            </div>
+            <div class="music">
+                <!--
+                    another issue is that i didnt have the time to embed or create a javascript player... i have multiple jobs
+                    YOU SEE WHAT YOU GET
+
+                    i used an image from google as an example of the webplayer. however i wouldnt use the webplayer i sampled an image of 
+                -->
+                <a href="">
+                    <img src="https://www.live-streams.nl/wp-content/uploads/2014/02/voorbeeld-jplayer1.jpg" alt="image of web player">
+                </a>
+            </div>
+            <div class="newsletter">
+                <h1>David Graeber and Nika Dubrovsky</h1>
+                <p>Of course, museums do not produce art; neither do they distribute art. They sacralize it. It’s important to underline the connection between property and the sacred. To sacralize is to exclude; it’s to set something apart from the world, whether because it is sacred to an individual (“private property”) or sacred to something more abstract (“art” “God,” “humanity,” “the nation”).
+                     Any revolutionary regime changes existing forms of property, and the organization or reorganization of museums plays a crucial role in this process, since the forms of property that exist within museums represent the summit of the pyramid. They are the ultimate wealth that police protect, and that the industrious poor can only see on weekends.
+                    Virtually all museums today operate in a way that produces and maintains hierarchy. 
+                    By archiving, cataloging, and reorganizing the museum’s space, they draw a line between “museum” quality and “non-museum” quality objects. But there is no ultimate contradiction between commoditized art and art considered inalienable and not to be sold, because they are simply two variations of the sacred as radical exclusion. 
+                    The fact that these objects are surrounded by armed security and high-tech surveillance simply serves to underline to any visitor how much their own creative acts (songs, jokes, hobbies, diary entries, care for loved ones, and precious mementos)
+                     are of no particular significance, and therefore, that visitor will need to return to their non-museum life and continue to carry on their “non-inessential” job producing and maintaining the structure of relations that makes museums possible. Much like the cathedrals they were meant to replace, museums are there to teach one one’s place.
+                    In the same way, the art world—as the apparatus for the production of objects, performances, or ideas that might someday merit being sacralized— is based on the artificial creation of scarcity. In the way that police guarantee material poverty, the existence of the art world—in its current form—could be said to guarantee spiritual poverty. What, then, would an abolitionist project directed at the art world actually look like?</p>
+            </div>
+        </div>
+        <div id="main2">
+            <div class="painting">
+                <a href="">
+                    <img src="https://64.media.tumblr.com/38d3c0c61032b54c70c0c1e31249f031/d8ea338b62f5489d-7a/s540x810/61fe07381bdd2c1e6935ba5595e05d4055cd619a.jpg" 
+                    alt="people gathering in the woods beserk">
+                </a>
+            </div>
+            <div class="music">
+                <!--
+                    another issue is that i didnt have the time to embed or create a javascript player... i have multiple jobs
+                    YOU SEE WHAT YOU GET
+
+                    i used an image from google as an example of the webplayer. however i wouldnt use the webplayer i sampled an image of 
+                -->
+                <a href="">
+                    <img src="https://www.live-streams.nl/wp-content/uploads/2014/02/voorbeeld-jplayer1.jpg" alt="image of web player">
+                </a>
+            </div>
+            <div class="newsletter">
+                <h1>Monster Art History: The Wendigo</h1>
+                <p>The  creature first came into horror fiction with Algernon Blackwood’s “The  Wendigo”. Note the spelling, which would become the standard in horror, and generally in non-academic Western sources. In that story, it is not associated with cannibalism, but  instead is a more generic “evil spirit of nature”. This wendigo stalks white people in the wilderness and turns a Native character into a new wendigo by seizing them and flying with them into the sky. This definitely better fits fears about non white people, fears about nature, and how the one is closer to the other than “civilized” people. Its description in  the story is vague (the most we get is that it has burned its feet away  by running into the sky). But when the story appeared in Weird Tales in
+                      the 1930s, Virgil Finlay illustrated it like this, the first antlered  wendigo I know of.</p>
+                      <p style="font-style: italic;">written by thecreaturecodex</p>
+                      <a href="https://www.tumblr.com/thecreaturecodex/696333813349072896/monster-art-history-the-wendigo" title="src">src</a>
+            </div>
+        </div>
+
     </main>
 </body>
 </html>
