@@ -22,11 +22,11 @@
   #main1 {
     margin-top: 15px;
     margin-right: 15px;
-    border-radius: 25px;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: linear-gradient(to bottom right, rgb(28, 29, 37), rgb(12, 12, 9));;
+    background-image: linear-gradient(to bottom right, rgb(8, 9, 12), rgb(12, 12, 9));
     border: solid white;
     grid-column: 2;
     padding: 15px;
@@ -42,9 +42,12 @@
     height: auto;
   }
   .newsletter {
-    background-color: grey;
+    background-color: rgb(204, 204, 204);
     margin: 2%;
     padding: 10px;
+    border: solid red 3px;
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom right, rgb(230, 230, 230), rgb(148, 148, 148))
   }
   .music {
     overflow: visible; 
@@ -66,11 +69,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: black;
+    background-image: linear-gradient(to bottom right, rgb(8, 8, 10), rgb(12, 12, 9));
     border: solid white;
     grid-column: 3;
     padding: 15px;
-    border-radius: 25px;
+    border-radius: 10px;
   }
 
   #main2 .newsletter {
@@ -105,10 +108,17 @@
     padding: 10px;
     border: solid rgb(255, 93, 93) 2px;
     border-radius: 15px;
+    text-align: center;
   }
   
-
+  #aside img {
+    border-radius: 2px;
+    border: solid black 2px;
+  }
   
+  #aside p, h1 {
+    margin: 5px;
+  }
 
 
   .btn {
@@ -131,7 +141,7 @@
 
   .dropdown {
     position: absolute;
-    width: 250px;
+    width: 200px;
     box-shadow: var(--shadow);
     border-radius: var(--radius);
     margin-top: 0.3rem;
